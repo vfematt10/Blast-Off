@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Robot Races</title>
+    <script>
+        // The Script tags lets the browser we are in JavaScript and not HTML
+        Function;
+        StartTheCountdown(); {
+            // Purpose of this function is to start the countdown
+            // and control the countdown also
+
+            // Declare variables
+            // used to display to user on screen
+            var countdown = 10;
+            //used to keep track of actual time
+            //1000 = 1 second because are are using milliseconds
+            var timeout = 10000;
+            // We need to do this 10 times
+            // use the set time out function for countdown
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Start The Race!"
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            })
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+            setTimeout(() => {
+                document.getElementById("countdownDisplay").innerHTML = "Countdown";
+                countdown = countdown - 1;
+            }, timeout)
+            timeout = timeout - 1000;
+            // We need to do this 10 times
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Robot Races!</h1> <img src="Blast Off!.jpg" alt="" srcset="">
+    <p>style="color:red;">A red paragraph</p>
+    <p>This application will start the Robot races!</p>
+    <h2>Countdown</h2>
+    <!--This is a button to start the countdown
+    This button will call the function StartTheCountdown() when
+    the user clicks it.
+    -->
+    <button type="button" onclick="StartTheCountdown()">Start Countdown</button>
+    <p id=" CountdownDisplay ">10</p>
+</body>
+
+</html>
